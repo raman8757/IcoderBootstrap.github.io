@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>ICoder haven for Programmers</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">ICoder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item  active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item  ">
+
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Technology</a>
+                <a class="dropdown-item" href="#">Web Development</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Write For Us</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="mx-2">
+            <button class="btn btn-danger"data-toggle="modal" data-target="#LoginModal">login</button>
+            <button class="btn btn-primary"data-toggle="modal" data-target="#SignupModal">Signup</button>
+            
+          </div>
+         
+        </div>
+
+      </nav>
+
+    
+
+<!--login Modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="LoginModalLabel">Login to ICoder</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Signup Modal -->
+<div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="SignupModalLabel">Get an ICoder Account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3">
+            </div>
+          </div>
+         
+          <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="input Confirm Password3" class="col-sm-2 col-form-label">Confirm Password</label>
+            <div class="col-sm-10">
+              <input type="Confirm password" class="form-control" id="input Confirm Password3">
+            </div>
+          </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="source.unsplash.jpeg"class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Welcome to ICoder</h5>
+              <p>Technology Newns, Development and Trends</p>
+              <button class="btn btn-primary">Technology</button>
+              <button class="btn btn-danger">Web Development</button>
+              <button class="btn btn-success">Tech Fun</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="source.unsplash5.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Best Coding Blog</h5>
+              <p>Technology Newns, Development and Trends</p>
+              <button class="btn btn-primary">Technology</button>
+              <button class="btn btn-danger">Web Development</button>
+              <button class="btn btn-success">Tech Fun</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="source.unsplash2.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Award Winning Blog</h5>
+              <p>Technology Newns, Development and Trends</p>
+              <button class="btn btn-primary">Technology</button>
+              <button class="btn btn-danger">Web Development</button>
+              <button class="btn btn-success">Tech Fun</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+
+      <div class="container my-2 "></div>
+      <div class="row mb-2 mx-4">
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <h3 class="mb-0">Global  Conferences</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">The PowerShell and DevOps Global Summit is an annual event featuring expert presenters and an opportunity for the entire PowerShell community to network and share ideas.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb.jpg" alt="">
+             
+    
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Design</strong>
+              <h3 class="mb-0">Learn Design</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">Web design for learning shares most of the principles of effective web design generally. </p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb1.jpg" alt="">
+             
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-2"></div>
+      <div class="row mb-2 mx-4">
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-danger">World</strong>
+              <h3 class="mb-0">Bootstrap Templates</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">Bootstrap is an HTML, CSS and JS library that focuses on simplifying the development of informative web pages (as opposed to web applications).  ></p> 
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb3.jpg" alt="">
+             
+    
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-warning">Python</strong>
+              <h3 class="mb-0">Learn Python</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">Python is a programming language that was developed in 1991, it has grown in popularity over the last decade. 
+               
+               
+               </p>
+               <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="thumb2.jpg" alt="">
+             
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer class="text-center text-white" style="background-color: #caced1;">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Images -->
+        <section class="">
+          <div class="row">
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp"
+                  class="w-100"
+                />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.2);"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp"
+                  class="w-100"
+                />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.2);"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp"
+                  class="w-100"
+                />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.2);"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp"
+                  class="w-100"
+                />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.2);"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp"
+                  class="w-100"
+                />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.2);"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp"
+                  class="w-100"
+                />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.2);"
+                  ></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Images -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: blueviolet;">
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">ICoder.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
